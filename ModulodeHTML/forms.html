@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários em HTML</title>
+</head>
+<body>
+    <h1>Encontre no Google</h1>
+    <form action="https://www.google.com/search" method="get" target="_blank">
+    <label for="q">O que deseja pesquisar?</label>
+    <input type="text" id="q" name="q" placeholder="Digite aqui" required>
+    <input type="submit" value="Pesquisar">
+    </form>
+
+    <h1>Explicando o exemplo acima:</h1>
+        <p>No exemplo mostrado acima, utilizamos o fomrmulário em HTML para fazer uma pesquisa no Google, o atributo action é o responsável por mandar o formulário para o site de busca.</p>
+        <p>Neste formulário, o label serve para linkar uma frase à um input, onde o atributo for precisa ter o mesmo nome do id do input, que no caso é q, isso serve para qualquer label que se refere à um input, caso não haja esse vinculo com o for, clicando no texto ele não seleciona a caixa do input.</p>
+
+    <h1>Teste no YouTube pra ver se funfa</h1>
+    <form action="https://youtube.com/results" target="_blank">
+    <label for="v">Pesquise um vídeo no YouTube por aqui:</label>
+    <input type="text" name="search_query" id="v" placeholder="Digite aqui" required>
+    <input type="submit" value="Pesquisar">
+    </form>
+    <h1>Teste no Wikipédia pra ver se funfa</h1>
+    <form action="https://pt.wikipedia.org/w/index.php" target="_blank">
+    <label for="v">Pesquise um vídeo no YouTube por aqui:</label>
+    <input type="text" name="search" id="v" placeholder="Digite aqui" required>
+    <input type="submit" value="Pesquisar">
+    </form>
+</body>
+</html>
